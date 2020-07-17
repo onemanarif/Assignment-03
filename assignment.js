@@ -7,7 +7,6 @@ function feetToMile(feet){
         return console.log("distance cannot be negative");
     }
 }
-var result=feetToMile(-10560);
 
 function woodCalculator(chair,table,bed){
     if(chair>0 || table>0 || bed>0){
@@ -21,7 +20,7 @@ function woodCalculator(chair,table,bed){
         return console.log("Add at least one item you want!")
     }
 }
-var result=woodCalculator(0,-5,0);
+
 
 function brickCalculator(floor){
     var floor;
@@ -50,7 +49,6 @@ function brickCalculator(floor){
  
 }
 
-var result=brickCalculator(-21);
 
 function tinyFriend(friendlist){
 
@@ -70,5 +68,5 @@ function tinyFriend(friendlist){
         return console.log("Your friend list is empty. Add a element in your list, Thank you!")
     }
 }
-var list=tinyFriend([]);
+
 
